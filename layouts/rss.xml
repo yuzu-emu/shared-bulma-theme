@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>{{ .Title }} on {{ .Site.Title }} </title>
+      <title>{{ .Site.Title }} – {{ .Site.Params.Tagline }}</title>
     <link>{{ .Permalink }}</link>
     <language>en-US</language>
     <author>{{ .Title }} Team</author>
